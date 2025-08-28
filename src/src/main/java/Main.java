@@ -9,6 +9,8 @@ import FunctionalInterface.FunctionFunctionalInterface;
 import FunctionalInterface.BiFunctionFunctionalInterface;
 import FunctionalInterface.UnaryAndBinaryOperatorFI;
 import FunctionalInterface.SupplierFunctionalInterface;
+import LambdaExamples.LambdaVariable1;
+import LambdaExamples.LambdaVariable2;
 import MethodReference.ConstructorReference;
 import MethodReference.FunctionMethodReference;
 import MethodReference.ConsumerMethodReference;
@@ -57,8 +59,14 @@ public class Main {
         /*RefactorMethodReference refactorMethodReference = new RefactorMethodReference();
         refactorMethodReference.RefactorMethodReferenceExample();*/
 
-        ConstructorReference constructorReference = new ConstructorReference();
-        constructorReference.ConstructorReferenceExample();
+        /*ConstructorReference constructorReference = new ConstructorReference();
+        constructorReference.ConstructorReferenceExample();*/
+
+        /*LambdaVariable1 lambdaVariable1 = new LambdaVariable1();
+        lambdaVariable1.LambdaVariableExample1();*/
+
+        LambdaVariable2 lambdaVariable2 = new LambdaVariable2();
+        lambdaVariable2.LambdaVariableExample2();
 
     }
 }
