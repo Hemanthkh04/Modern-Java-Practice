@@ -9,6 +9,10 @@ import FunctionalInterface.FunctionFunctionalInterface;
 import FunctionalInterface.BiFunctionFunctionalInterface;
 import FunctionalInterface.UnaryAndBinaryOperatorFI;
 import FunctionalInterface.SupplierFunctionalInterface;
+import MethodReference.ConstructorReference;
+import MethodReference.FunctionMethodReference;
+import MethodReference.ConsumerMethodReference;
+import MethodReference.RefactorMethodReference;
 
 public class Main {
     public static void main(String args[]){
@@ -41,7 +45,20 @@ public class Main {
         /*UnaryAndBinaryOperatorFI unaryAndBinaryOperatorFI = new UnaryAndBinaryOperatorFI();
         unaryAndBinaryOperatorFI.UnaryOperatorExample();*/
 
-        SupplierFunctionalInterface supplierFunctionalInterface = new SupplierFunctionalInterface();
-        supplierFunctionalInterface.SupplierExample();
+       /* SupplierFunctionalInterface supplierFunctionalInterface = new SupplierFunctionalInterface();
+        supplierFunctionalInterface.SupplierExample();*/
+
+        /*FunctionMethodReference functionMethodReference = new FunctionMethodReference();
+        functionMethodReference.FunctionMethodReferenceExample();*/
+
+        /*ConsumerMethodReference consumerMethodReference = new ConsumerMethodReference();
+        consumerMethodReference.ConsumerMethodReferenceExample();*/
+
+        /*RefactorMethodReference refactorMethodReference = new RefactorMethodReference();
+        refactorMethodReference.RefactorMethodReferenceExample();*/
+
+        ConstructorReference constructorReference = new ConstructorReference();
+        constructorReference.ConstructorReferenceExample();
+
     }
 }
