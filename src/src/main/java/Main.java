@@ -15,6 +15,7 @@ import MethodReference.ConstructorReference;
 import MethodReference.FunctionMethodReference;
 import MethodReference.ConsumerMethodReference;
 import MethodReference.RefactorMethodReference;
+import Optional.*;
 import Streams.*;
 import Streams.ParallelStreams.ParallelStreamBoxedExample;
 import Streams.ParallelStreams.ParallelStreamExample;
@@ -86,6 +87,7 @@ public class Main {
         /*StreamFilterExample streamFilterExample = new StreamFilterExample();
         streamFilterExample.Example();*/
 
+
         /*StreamReduceExample streamReduceExample = new StreamReduceExample();
         streamReduceExample.Example1();*/
 
@@ -155,7 +157,22 @@ public class Main {
         /*ParallelStreamBoxedExample parallelStreamBoxedExample = new ParallelStreamBoxedExample();
         parallelStreamBoxedExample.Example();*/
 
-        SumClient sumClient = new SumClient();
-        sumClient.Example();
+        /*SumClient sumClient = new SumClient();
+        sumClient.Example();*/
+
+        /*OptionalExample optionalExample = new OptionalExample();
+        optionalExample.Example();*/
+
+        /*OptionalOfEmptyNullableExample optionalOfEmptyNullableExample = new OptionalOfEmptyNullableExample();
+        optionalOfEmptyNullableExample.Example();*/
+
+        /*OptionalOrElseExample optionalOrElseExample = new OptionalOrElseExample();
+        optionalOrElseExample.Example();*/
+
+        /*OptionalPresentExample optionalPresentExample = new OptionalPresentExample();
+        optionalPresentExample.Example();*/
+
+        OptionalMapFlatMapFilterExample optionalMapFlatMapFilterExample = new OptionalMapFlatMapFilterExample();
+        optionalMapFlatMapFilterExample.Example();
     }
 }
